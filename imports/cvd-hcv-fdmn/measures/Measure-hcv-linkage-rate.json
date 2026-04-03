@@ -1,0 +1,32 @@
+{
+  "resourceType": "Measure",
+  "id": "hcv-linkage-rate",
+  "url": "https://zarishsphere.com/fhir/Measure/hcv-linkage-rate",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "name": "HCVLinkageRate",
+  "title": "HCV linkage rate",
+  "description": "Percentage of reactive HCV screening cases that attended clinic for confirmatory follow-up.",
+  "subjectCodeableConcept": {
+    "text": "Patient"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "text": "numerator"
+          },
+          "description": "Count reactive HCV screening patients who attended clinic."
+        },
+        {
+          "code": {
+            "text": "denominator"
+          },
+          "description": "Count reactive HCV screening patients referred for clinic follow-up."
+        }
+      ]
+    }
+  ]
+}
+

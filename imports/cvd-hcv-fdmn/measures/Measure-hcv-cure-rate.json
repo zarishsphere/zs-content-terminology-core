@@ -1,0 +1,32 @@
+{
+  "resourceType": "Measure",
+  "id": "hcv-cure-rate",
+  "url": "https://zarishsphere.com/fhir/Measure/hcv-cure-rate",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "name": "HCVCureRate",
+  "title": "HCV cure rate",
+  "description": "Percentage of SVR12-tested patients with undetectable HCV RNA after treatment completion.",
+  "subjectCodeableConcept": {
+    "text": "Patient"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "text": "numerator"
+          },
+          "description": "Count patients with undetectable SVR12 results."
+        },
+        {
+          "code": {
+            "text": "denominator"
+          },
+          "description": "Count patients who completed SVR12 testing."
+        }
+      ]
+    }
+  ]
+}
+

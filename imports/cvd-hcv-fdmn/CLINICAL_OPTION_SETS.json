@@ -1,0 +1,195 @@
+{
+  "sourcePackage": "CVD-HCV-FDMN-Program-Repository",
+  "optionSets": [
+    {
+      "id": "fdmn-binary-lab-result",
+      "name": "fdmn binary lab result",
+      "options": [
+        {
+          "value": "positive",
+          "display": "Positive",
+          "system": "http://snomed.info/sct",
+          "code": "10828004"
+        },
+        {
+          "value": "negative",
+          "display": "Negative",
+          "system": "http://snomed.info/sct",
+          "code": "260385009"
+        },
+        {
+          "value": "unknown",
+          "display": "Unknown",
+          "system": "http://snomed.info/sct",
+          "code": "261665006"
+        }
+      ]
+    },
+    {
+      "id": "fdmn-pregnancy-status",
+      "name": "fdmn pregnancy status",
+      "options": [
+        {
+          "value": "pregnant",
+          "display": "Pregnant",
+          "system": "http://snomed.info/sct",
+          "code": "77386006"
+        },
+        {
+          "value": "not-pregnant",
+          "display": "Not pregnant",
+          "system": "http://snomed.info/sct",
+          "code": "60001007"
+        },
+        {
+          "value": "unknown",
+          "display": "Unknown",
+          "system": "http://snomed.info/sct",
+          "code": "261665006"
+        }
+      ]
+    },
+    {
+      "id": "fdmn-hcv-danger-signs",
+      "name": "fdmn hcv danger signs",
+      "options": [
+        {
+          "value": "ascites",
+          "display": "Ascites",
+          "system": "http://snomed.info/sct",
+          "code": "389026000"
+        },
+        {
+          "value": "encephalopathy",
+          "display": "Encephalopathy",
+          "system": "http://snomed.info/sct",
+          "code": "81308009"
+        },
+        {
+          "value": "variceal-bleeding",
+          "display": "Variceal bleeding",
+          "system": "http://snomed.info/sct",
+          "code": "74474003"
+        },
+        {
+          "value": "worsening-jaundice",
+          "display": "Worsening jaundice",
+          "system": "http://snomed.info/sct",
+          "code": "18165001"
+        }
+      ]
+    },
+    {
+      "id": "fdmn-hcv-major-interacting-meds",
+      "name": "fdmn hcv major interacting medications",
+      "options": [
+        {"value": "amiodarone", "display": "Amiodarone"},
+        {"value": "rifampicin", "display": "Rifampicin"},
+        {"value": "carbamazepine", "display": "Carbamazepine"},
+        {"value": "phenytoin", "display": "Phenytoin"},
+        {"value": "st-johns-wort", "display": "St John's Wort"}
+      ]
+    },
+    {
+      "id": "fdmn-hcv-treatment-decision",
+      "name": "fdmn hcv treatment decision",
+      "options": [
+        {"value": "start-12-week-daa", "display": "Start 12-week DAA"},
+        {"value": "start-24-week-daa", "display": "Start 24-week DAA"},
+        {"value": "defer-pregnancy", "display": "Defer treatment because of pregnancy"},
+        {"value": "specialist-referral", "display": "Specialist referral"},
+        {"value": "needs-more-workup", "display": "Needs more work-up"}
+      ]
+    },
+    {
+      "id": "fdmn-cvd-followup-diagnosis",
+      "name": "fdmn cvd follow-up diagnosis scope",
+      "options": [
+        {
+          "value": "hypertension",
+          "display": "Hypertension",
+          "system": "http://snomed.info/sct",
+          "code": "38341003"
+        },
+        {
+          "value": "type-2-diabetes",
+          "display": "Type 2 diabetes",
+          "system": "http://snomed.info/sct",
+          "code": "44054006"
+        },
+        {
+          "value": "htn-and-diabetes",
+          "display": "Hypertension and diabetes"
+        }
+      ]
+    },
+    {
+      "id": "fdmn-antihypertensive-plan",
+      "name": "fdmn antihypertensive plan",
+      "options": [
+        {"value": "amlodipine-5", "display": "Amlodipine 5 mg daily"},
+        {"value": "amlodipine-10", "display": "Amlodipine 10 mg daily"},
+        {"value": "enalapril-5-10", "display": "Enalapril 5-10 mg daily"},
+        {"value": "losartan-50", "display": "Losartan 50 mg daily"},
+        {"value": "combination-therapy", "display": "Combination therapy"},
+        {"value": "lifestyle-only", "display": "Lifestyle modification only"},
+        {"value": "specialist-review", "display": "Specialist review"}
+      ]
+    },
+    {
+      "id": "fdmn-antidiabetic-plan",
+      "name": "fdmn antidiabetic plan",
+      "options": [
+        {"value": "metformin-500-bd", "display": "Metformin 500 mg twice daily"},
+        {"value": "metformin-1000-bd", "display": "Metformin 1000 mg twice daily"},
+        {"value": "gliclazide-80", "display": "Gliclazide 80 mg daily"},
+        {"value": "glibenclamide-2-5-5", "display": "Glibenclamide 2.5-5 mg daily"},
+        {"value": "insulin-review", "display": "Insulin or specialist review"},
+        {"value": "lifestyle-only", "display": "Lifestyle modification only"}
+      ]
+    },
+    {
+      "id": "fdmn-cvd-urgent-symptoms",
+      "name": "fdmn cvd urgent symptoms",
+      "options": [
+        {
+          "value": "chest-pain",
+          "display": "Chest pain",
+          "system": "http://snomed.info/sct",
+          "code": "29857009"
+        },
+        {
+          "value": "shortness-of-breath",
+          "display": "Shortness of breath",
+          "system": "http://snomed.info/sct",
+          "code": "267036007"
+        },
+        {
+          "value": "stroke-signs",
+          "display": "Stroke signs",
+          "system": "http://snomed.info/sct",
+          "code": "230690007"
+        },
+        {
+          "value": "severe-headache",
+          "display": "Severe headache",
+          "system": "http://snomed.info/sct",
+          "code": "162307009"
+        }
+      ]
+    },
+    {
+      "id": "fdmn-cvd-followup-decision",
+      "name": "fdmn cvd follow-up decision",
+      "options": [
+        {"value": "continue-current-plan", "display": "Continue current plan"},
+        {"value": "intensify-htn-treatment", "display": "Intensify hypertension treatment"},
+        {"value": "intensify-diabetes-treatment", "display": "Intensify diabetes treatment"},
+        {"value": "start-statin", "display": "Start statin"},
+        {"value": "urgent-referral", "display": "Urgent referral"},
+        {"value": "routine-referral", "display": "Routine referral"}
+      ]
+    }
+  ]
+}
+

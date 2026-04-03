@@ -1,0 +1,20 @@
+{
+  "sourcePackage": "CVD-HCV-FDMN-Program-Repository",
+  "measures": [
+    {
+      "id": "hcv-linkage-rate",
+      "thresholdId": "hcv-linkage-rate",
+      "resourceFile": "measures/Measure-hcv-linkage-rate.json"
+    },
+    {
+      "id": "hcv-cure-rate",
+      "thresholdId": "hcv-cure-rate",
+      "resourceFile": "measures/Measure-hcv-cure-rate.json"
+    },
+    {
+      "id": "cvd-bp-control-rate",
+      "thresholdId": "cvd-bp-control-rate",
+      "resourceFile": "measures/Measure-cvd-bp-control-rate.json"
+    }
+  ]
+}

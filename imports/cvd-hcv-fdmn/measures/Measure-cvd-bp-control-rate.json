@@ -1,0 +1,32 @@
+{
+  "resourceType": "Measure",
+  "id": "cvd-bp-control-rate",
+  "url": "https://zarishsphere.com/fhir/Measure/cvd-bp-control-rate",
+  "version": "1.0.0-draft",
+  "status": "draft",
+  "name": "CVDBloodPressureControlRate",
+  "title": "CVD blood pressure control rate",
+  "description": "Percentage of treated hypertension patients whose latest blood pressure is below 140/90.",
+  "subjectCodeableConcept": {
+    "text": "Patient"
+  },
+  "group": [
+    {
+      "population": [
+        {
+          "code": {
+            "text": "numerator"
+          },
+          "description": "Count treated hypertension patients with latest BP below target."
+        },
+        {
+          "code": {
+            "text": "denominator"
+          },
+          "description": "Count treated hypertension patients with a current follow-up record."
+        }
+      ]
+    }
+  ]
+}
+
