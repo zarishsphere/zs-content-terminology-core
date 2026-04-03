@@ -1,0 +1,42 @@
+{
+  "id": "core-opd-general-field-010-484636595503",
+  "name": "core-opd-general-field-010",
+  "optionCount": 5,
+  "options": [
+    {
+      "value": "dc128095-87bb-44ac-bebc-9be5f63fd4ba",
+      "display": "MUAC < 185 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "cefd4fb9-b63d-4df7-9eea-e42e4d8721c9",
+      "display": "MUAC Africa 185 - 230 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "ca52a956-77a3-4f0a-b609-d884c74496f4",
+      "display": "MUAC Asia 185 - 210 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "097bf04e-7e30-4173-8109-ecc02a5831fd",
+      "display": "MUAC Africa >= 230 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "8ced531f-bf8f-4cb8-bef7-b858c6bb0786",
+      "display": "MUAC Asia >= 210 mm",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-3-1",
+      "fieldId": "field-010",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-010_label}}"
+    }
+  ]
+}

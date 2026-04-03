@@ -1,0 +1,43 @@
+{
+  "id": "triage-status-00b8aae1a475",
+  "name": "triage-status",
+  "optionCount": 2,
+  "options": [
+    {
+      "value": "681cf0bc-5213-492a-8470-0a0b3cc324dd",
+      "display": "Yes",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "a5c5563e-df0e-4742-a335-b24fb63664ee",
+      "display": "No",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "er-triage",
+      "formId": "zs-form-core_emergency_er_triage",
+      "sectionId": "section-2-1",
+      "fieldId": "field-022",
+      "fieldLabel": "{{i18n:forms.core_emergency_er_triage.field-022_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-1-1",
+      "fieldId": "field-002",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-002_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-5-1",
+      "fieldId": "field-018",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-018_label}}"
+    }
+  ]
+}

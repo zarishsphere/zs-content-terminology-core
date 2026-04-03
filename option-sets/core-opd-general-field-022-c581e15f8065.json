@@ -1,0 +1,47 @@
+{
+  "id": "core-opd-general-field-022-c581e15f8065",
+  "name": "core-opd-general-field-022",
+  "optionCount": 6,
+  "options": [
+    {
+      "value": "a5c5563e-df0e-4742-a335-b24fb63664ee",
+      "display": "No",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "87274dc0-3be1-4d16-ab63-75094f7dcd4f",
+      "display": "Emergency",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "50b1cca9-5c58-479b-9bb9-5e546355fb4a",
+      "display": "Gynecology",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "ab0d230d-65f2-406c-9f95-c1b08433267b",
+      "display": "Mental health",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "2eeb61c3-8efa-4dd2-91ba-818ce5ff446a",
+      "display": "Nutrition",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "790b41ce-e1e7-11e8-b02f-0242ac130002",
+      "display": "Other",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-5-1",
+      "fieldId": "field-022",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-022_label}}"
+    }
+  ]
+}

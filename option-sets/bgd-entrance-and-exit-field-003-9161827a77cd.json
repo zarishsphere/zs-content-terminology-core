@@ -1,0 +1,37 @@
+{
+  "id": "bgd-entrance-and-exit-field-003-9161827a77cd",
+  "name": "bgd-entrance-and-exit-field-003",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "99b4d0bd-8730-4528-85db-0be6aaf08344",
+      "display": "Moved away",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "26aa06dd-e981-4c9e-a43a-2fb2df020f48",
+      "display": "LTFU 12 months",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "f60369b7-15e2-44cf-8392-d6d6f3547ab0",
+      "display": "Treatment complete",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "599ae983-6fb2-456f-b2c1-3883388e18ed",
+      "display": "Deceased",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "bgd",
+      "formSlug": "entrance-and-exit",
+      "formId": "zs-form-bgd_cohort_entrance_exit",
+      "sectionId": "section-1",
+      "fieldId": "field-003",
+      "fieldLabel": "{{i18n:forms.bgd_cohort_entrance_exit.field-003_label}}"
+    }
+  ]
+}

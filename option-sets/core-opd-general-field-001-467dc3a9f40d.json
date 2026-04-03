@@ -1,0 +1,27 @@
+{
+  "id": "core-opd-general-field-001-467dc3a9f40d",
+  "name": "core-opd-general-field-001",
+  "optionCount": 2,
+  "options": [
+    {
+      "value": "871b2167-4024-4983-a881-9893b6a8460b",
+      "display": "Admission",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "18c10f79-0bd7-429a-a809-3225bebf4bc7",
+      "display": "Follow up",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-1-1",
+      "fieldId": "field-001",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-001_label}}"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "triage-status-bc95849aa158",
+  "name": "triage-status",
+  "optionCount": 5,
+  "options": [
+    {
+      "value": "743868a4-dd02-4fff-9174-bd21eaf10af6",
+      "display": "1 hour or less",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "d5af6bed-8fe2-44a0-b959-808e55bb0bdd",
+      "display": "2-6 hours",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "31725234-2189-421d-a945-fe400823c14d",
+      "display": "7-12 hours",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "9cdcbc52-83e4-4fcd-9b45-9ffd648bb5e1",
+      "display": "13-24 hours",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "30253d23-7a9d-47fc-9adf-7a1e11cdf541",
+      "display": "24 hours or more",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "er-triage",
+      "formId": "zs-form-core_emergency_er_triage",
+      "sectionId": "section-2-1",
+      "fieldId": "field-020",
+      "fieldLabel": "{{i18n:forms.core_emergency_er_triage.field-020_label}}"
+    }
+  ]
+}

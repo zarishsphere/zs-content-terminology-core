@@ -1,0 +1,32 @@
+{
+  "id": "bgd-patient-data-field-004-0c412d357f5a",
+  "name": "bgd-patient-data-field-004",
+  "optionCount": 3,
+  "options": [
+    {
+      "value": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Yes",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "No",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "1067AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Unknown",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "bgd",
+      "formSlug": "patient-data",
+      "formId": "zs-form-bgd_core_patient_data",
+      "sectionId": "section-1",
+      "fieldId": "field-004",
+      "fieldLabel": "{{i18n:forms.bgd_core_patient_data.field-004_label}}"
+    }
+  ]
+}

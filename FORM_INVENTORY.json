@@ -1,0 +1,42 @@
+[
+  {
+    "source": "core",
+    "slug": "er-triage",
+    "formId": "zs-form-core_emergency_er_triage"
+  },
+  {
+    "source": "core",
+    "slug": "opd-general",
+    "formId": "zs-form-core_clinical_opd_general"
+  },
+  {
+    "source": "core",
+    "slug": "phq9",
+    "formId": "zs-form-core_mental_health_phq9"
+  },
+  {
+    "source": "bgd",
+    "slug": "entrance-and-exit",
+    "formId": "zs-form-bgd_cohort_entrance_exit"
+  },
+  {
+    "source": "bgd",
+    "slug": "hepatitis-c",
+    "formId": "zs-form-bgd_cd_hepatitis_c"
+  },
+  {
+    "source": "bgd",
+    "slug": "patient-data",
+    "formId": "zs-form-bgd_core_patient_data"
+  },
+  {
+    "source": "bgd",
+    "slug": "patient-diagnosis",
+    "formId": "zs-form-bgd_diagnosis_patient_diagnosis"
+  },
+  {
+    "source": "bgd",
+    "slug": "patient-vitals",
+    "formId": "zs-form-bgd_vitals_patient_vitals"
+  }
+]

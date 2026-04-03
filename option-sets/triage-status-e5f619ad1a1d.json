@@ -1,0 +1,37 @@
+{
+  "id": "triage-status-e5f619ad1a1d",
+  "name": "triage-status",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "b5b58ef8-1bdf-4c14-9384-afbeb848d571",
+      "display": "<1 year",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "5b821f47-e0f8-4438-b05a-01e387eadea2",
+      "display": "1 to 4 years",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "d553dd40-fac4-4f27-afa0-0cf89b60d2a8",
+      "display": "5 to 12 years",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "8a585229-50b0-4355-92a9-7a1a7c00b073",
+      "display": ">12 years",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "er-triage",
+      "formId": "zs-form-core_emergency_er_triage",
+      "sectionId": "section-1-1",
+      "fieldId": "field-002",
+      "fieldLabel": "{{i18n:forms.core_emergency_er_triage.field-002_label}}"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "bgd-patient-diagnosis-field-001-1f3d613cb5db",
+  "name": "bgd-patient-diagnosis-field-001",
+  "optionCount": 18,
+  "options": [
+    {
+      "value": "121375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Asthma",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "119270AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Cardiovascular disease",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120576AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic kidney insufficiency",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120575AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Kidney Disease, Stage I",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120574AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Kidney Disease, Stage II (Mild)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Kidney Disease, Stage III (Moderate)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120578AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Kidney Disease, Stage IV (Severe)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "120577AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Kidney Disease, Stage V",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "1295AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic obstructive pulmonary disease",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Epilepsy",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "145347AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Chronic Hepatitis C",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "117399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Hypertension",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "111103AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Stroke",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "118976AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Thyroid disease",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "142474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Diabetes mellitus, type 1",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "142473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Diabetes mellitus, type 2",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "145092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "display": "Cirrhosis and Chronic Liver Disease",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "e4ec74c2-6e4d-4539-b712-37ee267976f6",
+      "display": "Other pathology",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "bgd",
+      "formSlug": "patient-diagnosis",
+      "formId": "zs-form-bgd_diagnosis_patient_diagnosis",
+      "sectionId": "section-1",
+      "fieldId": "field-001",
+      "fieldLabel": "{{i18n:forms.bgd_diagnosis_patient_diagnosis.field-001_label}}"
+    },
+    {
+      "source": "bgd",
+      "formSlug": "patient-diagnosis",
+      "formId": "zs-form-bgd_diagnosis_patient_diagnosis",
+      "sectionId": "section-1",
+      "fieldId": "field-003",
+      "fieldLabel": "{{i18n:forms.bgd_diagnosis_patient_diagnosis.field-003_label}}"
+    }
+  ]
+}

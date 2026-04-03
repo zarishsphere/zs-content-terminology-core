@@ -1,0 +1,37 @@
+{
+  "id": "triage-status-0ab3e52be59d",
+  "name": "triage-status",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "c4c0e305-021c-447b-9eb4-0ec47f2feeb2",
+      "display": "A - Alert",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "4b824bce-2c92-46bd-927e-aed3f60c6fad",
+      "display": "V - Verbal (High risk)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "5a2f1311-9e26-4018-826a-acf18fc2c7f4",
+      "display": "P - Pain (High risk)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "fed40104-2b90-4edf-9800-b306456c4e27",
+      "display": "U - Unresponsive (Red)",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "er-triage",
+      "formId": "zs-form-core_emergency_er_triage",
+      "sectionId": "section-1-1",
+      "fieldId": "field-003",
+      "fieldLabel": "{{i18n:forms.core_emergency_er_triage.field-003_label}}"
+    }
+  ]
+}

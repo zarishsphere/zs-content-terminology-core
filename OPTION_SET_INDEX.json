@@ -1,0 +1,134 @@
+[
+  {
+    "id": "phq9-frequency-d6c6c36e2f5c",
+    "name": "phq9-frequency",
+    "optionCount": 4,
+    "usageCount": 9
+  },
+  {
+    "id": "triage-status-00b8aae1a475",
+    "name": "triage-status",
+    "optionCount": 2,
+    "usageCount": 3
+  },
+  {
+    "id": "bgd-patient-data-field-001-3024399e7312",
+    "name": "bgd-patient-data-field-001",
+    "optionCount": 2,
+    "usageCount": 3
+  },
+  {
+    "id": "bgd-patient-diagnosis-field-001-1f3d613cb5db",
+    "name": "bgd-patient-diagnosis-field-001",
+    "optionCount": 18,
+    "usageCount": 2
+  },
+  {
+    "id": "triage-status-aa0eae0d07c6",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 2
+  },
+  {
+    "id": "triage-status-0ab3e52be59d",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "bgd-patient-data-field-004-0c412d357f5a",
+    "name": "bgd-patient-data-field-004",
+    "optionCount": 3,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-1cbb0cc8de97",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "phq9-frequency-2583066e1862",
+    "name": "phq9-frequency",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-45596e44177e",
+    "name": "triage-status",
+    "optionCount": 5,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-45f0303e09b9",
+    "name": "triage-status",
+    "optionCount": 6,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-001-467dc3a9f40d",
+    "name": "core-opd-general-field-001",
+    "optionCount": 2,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-010-484636595503",
+    "name": "core-opd-general-field-010",
+    "optionCount": 5,
+    "usageCount": 1
+  },
+  {
+    "id": "bgd-entrance-and-exit-field-003-9161827a77cd",
+    "name": "bgd-entrance-and-exit-field-003",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-009-9cfa73d0a14c",
+    "name": "core-opd-general-field-009",
+    "optionCount": 3,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-9d63c89b7fc7",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-008-9ed72dd32a1f",
+    "name": "core-opd-general-field-008",
+    "optionCount": 2,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-011-a9cf8b911c82",
+    "name": "core-opd-general-field-011",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-bc95849aa158",
+    "name": "triage-status",
+    "optionCount": 5,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-c51bdbcfe651",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 1
+  },
+  {
+    "id": "core-opd-general-field-022-c581e15f8065",
+    "name": "core-opd-general-field-022",
+    "optionCount": 6,
+    "usageCount": 1
+  },
+  {
+    "id": "triage-status-e5f619ad1a1d",
+    "name": "triage-status",
+    "optionCount": 4,
+    "usageCount": 1
+  }
+]

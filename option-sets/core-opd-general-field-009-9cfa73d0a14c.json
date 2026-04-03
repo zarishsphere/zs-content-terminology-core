@@ -1,0 +1,32 @@
+{
+  "id": "core-opd-general-field-009-9cfa73d0a14c",
+  "name": "core-opd-general-field-009",
+  "optionCount": 3,
+  "options": [
+    {
+      "value": "abdee0a4-927b-4170-ab12-2f954ecb914f",
+      "display": "MUAC <115 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "94e78cab-9aeb-4852-a9bc-8f2b0085c8b1",
+      "display": "MUAC 115-124 mm",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "6a64aab2-f2aa-478e-8a79-68b5b8ffef87",
+      "display": "MUAC \u2265125 mm",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-3-1",
+      "fieldId": "field-009",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-009_label}}"
+    }
+  ]
+}

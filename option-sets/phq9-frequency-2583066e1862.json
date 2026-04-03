@@ -1,0 +1,37 @@
+{
+  "id": "phq9-frequency-2583066e1862",
+  "name": "phq9-frequency",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "b1f9346e-4e88-4812-b442-12742918d851",
+      "display": "b1f9346e-4e88-4812-b442-12742918d851",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "243698be-42a0-46da-8be8-21c774f2f42a",
+      "display": "243698be-42a0-46da-8be8-21c774f2f42a",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "45125711-2156-475e-ac7e-6eed34b976a7",
+      "display": "45125711-2156-475e-ac7e-6eed34b976a7",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "7914639c-89bc-4ff9-bff5-06b5c22aed11",
+      "display": "7914639c-89bc-4ff9-bff5-06b5c22aed11",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-011",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-011_label}}"
+    }
+  ]
+}

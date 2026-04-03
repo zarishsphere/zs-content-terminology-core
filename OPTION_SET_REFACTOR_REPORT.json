@@ -1,0 +1,224 @@
+[
+  {
+    "repo": "zs-content-forms-core",
+    "formSlug": "er-triage",
+    "formId": "zs-form-core_emergency_er_triage",
+    "replacements": [
+      {
+        "fieldId": "field-002",
+        "optionSetRef": "triage-status-e5f619ad1a1d",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-003",
+        "optionSetRef": "triage-status-0ab3e52be59d",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-019",
+        "optionSetRef": "triage-status-9d63c89b7fc7",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-020",
+        "optionSetRef": "triage-status-bc95849aa158",
+        "optionCount": 5
+      },
+      {
+        "fieldId": "field-021",
+        "optionSetRef": "triage-status-45f0303e09b9",
+        "optionCount": 6
+      },
+      {
+        "fieldId": "field-022",
+        "optionSetRef": "triage-status-00b8aae1a475",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-023",
+        "optionSetRef": "triage-status-45596e44177e",
+        "optionCount": 5
+      },
+      {
+        "fieldId": "field-029",
+        "optionSetRef": "triage-status-c51bdbcfe651",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-030",
+        "optionSetRef": "triage-status-aa0eae0d07c6",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-031",
+        "optionSetRef": "triage-status-1cbb0cc8de97",
+        "optionCount": 4
+      }
+    ]
+  },
+  {
+    "repo": "zs-content-forms-core",
+    "formSlug": "opd-general",
+    "formId": "zs-form-core_clinical_opd_general",
+    "replacements": [
+      {
+        "fieldId": "field-001",
+        "optionSetRef": "core-opd-general-field-001-467dc3a9f40d",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-002",
+        "optionSetRef": "triage-status-00b8aae1a475",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-008",
+        "optionSetRef": "core-opd-general-field-008-9ed72dd32a1f",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-009",
+        "optionSetRef": "core-opd-general-field-009-9cfa73d0a14c",
+        "optionCount": 3
+      },
+      {
+        "fieldId": "field-010",
+        "optionSetRef": "core-opd-general-field-010-484636595503",
+        "optionCount": 5
+      },
+      {
+        "fieldId": "field-011",
+        "optionSetRef": "core-opd-general-field-011-a9cf8b911c82",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-012",
+        "optionSetRef": "triage-status-aa0eae0d07c6",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-018",
+        "optionSetRef": "triage-status-00b8aae1a475",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-022",
+        "optionSetRef": "core-opd-general-field-022-c581e15f8065",
+        "optionCount": 6
+      }
+    ]
+  },
+  {
+    "repo": "zs-content-forms-core",
+    "formSlug": "phq9",
+    "formId": "zs-form-core_mental_health_phq9",
+    "replacements": [
+      {
+        "fieldId": "field-001",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-002",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-003",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-004",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-005",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-006",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-007",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-008",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-009",
+        "optionSetRef": "phq9-frequency-d6c6c36e2f5c",
+        "optionCount": 4
+      },
+      {
+        "fieldId": "field-011",
+        "optionSetRef": "phq9-frequency-2583066e1862",
+        "optionCount": 4
+      }
+    ]
+  },
+  {
+    "repo": "zs-content-forms-bgd",
+    "formSlug": "entrance-and-exit",
+    "formId": "zs-form-bgd_cohort_entrance_exit",
+    "replacements": [
+      {
+        "fieldId": "field-003",
+        "optionSetRef": "bgd-entrance-and-exit-field-003-9161827a77cd",
+        "optionCount": 4
+      }
+    ]
+  },
+  {
+    "repo": "zs-content-forms-bgd",
+    "formSlug": "patient-data",
+    "formId": "zs-form-bgd_core_patient_data",
+    "replacements": [
+      {
+        "fieldId": "field-001",
+        "optionSetRef": "bgd-patient-data-field-001-3024399e7312",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-002",
+        "optionSetRef": "bgd-patient-data-field-001-3024399e7312",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-003",
+        "optionSetRef": "bgd-patient-data-field-001-3024399e7312",
+        "optionCount": 2
+      },
+      {
+        "fieldId": "field-004",
+        "optionSetRef": "bgd-patient-data-field-004-0c412d357f5a",
+        "optionCount": 3
+      }
+    ]
+  },
+  {
+    "repo": "zs-content-forms-bgd",
+    "formSlug": "patient-diagnosis",
+    "formId": "zs-form-bgd_diagnosis_patient_diagnosis",
+    "replacements": [
+      {
+        "fieldId": "field-001",
+        "optionSetRef": "bgd-patient-diagnosis-field-001-1f3d613cb5db",
+        "optionCount": 18
+      },
+      {
+        "fieldId": "field-003",
+        "optionSetRef": "bgd-patient-diagnosis-field-001-1f3d613cb5db",
+        "optionCount": 18
+      }
+    ]
+  }
+]

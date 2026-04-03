@@ -1,0 +1,27 @@
+{
+  "id": "core-opd-general-field-008-9ed72dd32a1f",
+  "name": "core-opd-general-field-008",
+  "optionCount": 2,
+  "options": [
+    {
+      "value": "5ab4cd89-1423-4911-856c-2c658aeabfc6",
+      "display": "Pregnant or lactating",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "790b41ce-e1e7-11e8-b02f-0242ac130002",
+      "display": "Others",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-3-1",
+      "fieldId": "field-008",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-008_label}}"
+    }
+  ]
+}

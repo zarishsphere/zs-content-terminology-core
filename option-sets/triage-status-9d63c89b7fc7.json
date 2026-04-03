@@ -1,0 +1,37 @@
+{
+  "id": "triage-status-9d63c89b7fc7",
+  "name": "triage-status",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "dd73cf7a-ceae-4110-9d79-605376a2162f",
+      "display": "Green",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "627b6d54-0632-49f1-8a6f-d337d37362b0",
+      "display": "Yellow",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "5fabbc9d-7041-4ca8-afb9-852b31ab8ea1",
+      "display": "Red",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "caba9b29-84f1-4486-a680-219e16ed3860",
+      "display": "Black",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "er-triage",
+      "formId": "zs-form-core_emergency_er_triage",
+      "sectionId": "section-1-8",
+      "fieldId": "field-019",
+      "fieldLabel": "{{i18n:forms.core_emergency_er_triage.field-019_label}}"
+    }
+  ]
+}

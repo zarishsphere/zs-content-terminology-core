@@ -1,0 +1,101 @@
+{
+  "id": "phq9-frequency-d6c6c36e2f5c",
+  "name": "phq9-frequency",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "ed0e2463-c990-4341-b095-53b899707af9",
+      "display": "Not at all (PHQ9)",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "b631d160-8d40-4cf7-92cd-67f628c889e8",
+      "display": "Several days",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "234259ec-5368-4488-8482-4f261cc76714",
+      "display": "More than half the days",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "8ff1f85c-4f04-4f5b-936a-5aa9320cb66e",
+      "display": "Nearly every day",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-001",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-001_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-002",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-002_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-003",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-003_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-004",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-004_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-005",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-005_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-006",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-006_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-007",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-007_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-008",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-008_label}}"
+    },
+    {
+      "source": "core",
+      "formSlug": "phq9",
+      "formId": "zs-form-core_mental_health_phq9",
+      "sectionId": "section-1-1",
+      "fieldId": "field-009",
+      "fieldLabel": "{{i18n:forms.core_mental_health_phq9.field-009_label}}"
+    }
+  ]
+}

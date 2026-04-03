@@ -1,0 +1,37 @@
+{
+  "id": "core-opd-general-field-011-a9cf8b911c82",
+  "name": "core-opd-general-field-011",
+  "optionCount": 4,
+  "options": [
+    {
+      "value": "382578c2-91b4-4235-a02d-d20fbe9f8044",
+      "display": "+",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "709e4a07-af9f-432b-8711-b3caed41998c",
+      "display": "++",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "9e6f2ae1-4aa3-4cbc-bd8d-98515b76cc15",
+      "display": "+++",
+      "system": "urn:openmrs:concept"
+    },
+    {
+      "value": "a5c5563e-df0e-4742-a335-b24fb63664ee",
+      "display": "No",
+      "system": "urn:openmrs:concept"
+    }
+  ],
+  "usages": [
+    {
+      "source": "core",
+      "formSlug": "opd-general",
+      "formId": "zs-form-core_clinical_opd_general",
+      "sectionId": "section-3-1",
+      "fieldId": "field-011",
+      "fieldLabel": "{{i18n:forms.core_clinical_opd_general.field-011_label}}"
+    }
+  ]
+}
