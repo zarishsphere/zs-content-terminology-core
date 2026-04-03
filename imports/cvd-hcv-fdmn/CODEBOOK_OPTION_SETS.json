@@ -1,0 +1,91 @@
+{
+  "sourcePackage": "CVD-HCV-FDMN-Program-Repository",
+  "sourceFile": "05_DATA_TOOLS/Variable_Codebook.md",
+  "optionSets": [
+    {
+      "id": "fdmn-sex",
+      "name": "fdmn sex",
+      "options": [
+        {"value": "male", "display": "Male", "sourceCode": "1"},
+        {"value": "female", "display": "Female", "sourceCode": "2"},
+        {"value": "other", "display": "Other / Prefer not to say", "sourceCode": "3"}
+      ]
+    },
+    {
+      "id": "fdmn-rdt-result",
+      "name": "fdmn hcv rdt result",
+      "options": [
+        {"value": "reactive", "display": "Reactive (Positive)", "sourceCode": "1"},
+        {"value": "non-reactive", "display": "Non-Reactive (Negative)", "sourceCode": "2"},
+        {"value": "invalid", "display": "Invalid", "sourceCode": "3"},
+        {"value": "refused", "display": "Refused", "sourceCode": "4"},
+        {"value": "pending", "display": "Pending", "sourceCode": "5"}
+      ]
+    },
+    {
+      "id": "fdmn-rna-result",
+      "name": "fdmn hcv rna result",
+      "options": [
+        {"value": "positive", "display": "Positive (HCV RNA detected)", "sourceCode": "1"},
+        {"value": "negative", "display": "Negative (HCV RNA not detected)", "sourceCode": "2"},
+        {"value": "indeterminate", "display": "Indeterminate", "sourceCode": "3"},
+        {"value": "not-processed", "display": "Sample not processed", "sourceCode": "4"}
+      ]
+    },
+    {
+      "id": "fdmn-treatment-status",
+      "name": "fdmn treatment status",
+      "options": [
+        {"value": "started", "display": "Started", "sourceCode": "1"},
+        {"value": "completed", "display": "Completed (EOT)", "sourceCode": "2"},
+        {"value": "ltfu", "display": "LTFU", "sourceCode": "3"},
+        {"value": "discontinued-ae", "display": "Discontinued (AE)", "sourceCode": "4"},
+        {"value": "not-eligible", "display": "Not eligible", "sourceCode": "5"},
+        {"value": "refused", "display": "Refused", "sourceCode": "6"},
+        {"value": "pending", "display": "Pending", "sourceCode": "7"}
+      ]
+    },
+    {
+      "id": "fdmn-final-outcome",
+      "name": "fdmn final outcome",
+      "options": [
+        {"value": "cured", "display": "CURED (SVR12 undetectable)", "sourceCode": "1"},
+        {"value": "treatment-failure", "display": "Treatment failure (SVR12 detectable)", "sourceCode": "2"},
+        {"value": "ltfu", "display": "LTFU (SVR12 not done)", "sourceCode": "3"},
+        {"value": "died", "display": "Died", "sourceCode": "4"},
+        {"value": "transferred-out", "display": "Transferred out", "sourceCode": "5"},
+        {"value": "on-treatment", "display": "On treatment (not yet EOT)", "sourceCode": "6"}
+      ]
+    },
+    {
+      "id": "fdmn-bp-status",
+      "name": "fdmn blood pressure status",
+      "options": [
+        {"value": "controlled", "display": "Controlled (SBP<140, DBP<90)", "sourceCode": "1"},
+        {"value": "uncontrolled", "display": "Uncontrolled", "sourceCode": "2"},
+        {"value": "not-on-treatment", "display": "Not on treatment", "sourceCode": "3"}
+      ]
+    },
+    {
+      "id": "fdmn-camp-code",
+      "name": "fdmn camp code",
+      "options": [
+        {"value": "1W", "display": "Camp 1 West", "sourceCode": "1W"},
+        {"value": "04", "display": "Camp 4", "sourceCode": "04"},
+        {"value": "05", "display": "Camp 5", "sourceCode": "05"},
+        {"value": "17", "display": "Camp 17", "sourceCode": "17"}
+      ]
+    },
+    {
+      "id": "fdmn-followup-side-effect-level",
+      "name": "fdmn followup side effect level",
+      "options": [
+        {"value": "none", "display": "None"},
+        {"value": "mild", "display": "Mild"},
+        {"value": "moderate", "display": "Moderate"},
+        {"value": "severe", "display": "Severe"},
+        {"value": "urgent", "display": "Urgent referral needed"}
+      ]
+    }
+  ]
+}
