@@ -1,0 +1,29 @@
+{
+  "sourcePackage": "CVD-HCV-FDMN-Program-Repository",
+  "sourceFiles": [
+    "CPI_Bangladesh_ME_Toolkit_v2 (1).docx",
+    "ME_Framework_KPI_Tracker_CVD_HCV_FDMN_v1.xlsx",
+    "06_ME_FRAMEWORK/KPI_Definitions_Reference.md"
+  ],
+  "thresholds": [
+    {"id": "hcv-screening-coverage", "targetType": "minimum", "targetValue": 80, "unit": "%"},
+    {"id": "hcv-linkage-rate", "targetType": "minimum", "targetValue": 85, "unit": "%"},
+    {"id": "hcv-rna-confirmation-rate", "targetType": "minimum", "targetValue": 90, "unit": "%"},
+    {"id": "hcv-treatment-initiation-rate", "targetType": "minimum", "targetValue": 90, "unit": "%"},
+    {"id": "hcv-treatment-completion-rate", "targetType": "minimum", "targetValue": 95, "unit": "%"},
+    {"id": "hcv-adherence-rate", "targetType": "minimum", "targetValue": 85, "unit": "%"},
+    {"id": "hcv-svr12-testing-rate", "targetType": "minimum", "targetValue": 90, "unit": "%"},
+    {"id": "hcv-cure-rate", "targetType": "minimum", "targetValue": 95, "unit": "%"},
+    {"id": "hcv-ltfu-rate", "targetType": "maximum", "targetValue": 10, "unit": "%"},
+    {"id": "cvd-screening-coverage", "targetType": "minimum", "targetValue": 75, "unit": "%"},
+    {"id": "cvd-htn-treatment-initiation-rate", "targetType": "minimum", "targetValue": 90, "unit": "%"},
+    {"id": "cvd-bp-control-rate", "targetType": "minimum", "targetValue": 60, "unit": "%"},
+    {"id": "cvd-dm-treatment-initiation-rate", "targetType": "minimum", "targetValue": 90, "unit": "%"},
+    {"id": "cvd-hba1c-control-rate", "targetType": "minimum", "targetValue": 50, "unit": "%"},
+    {"id": "cvd-statin-rate-high-risk", "targetType": "minimum", "targetValue": 80, "unit": "%"},
+    {"id": "cvd-followup-attendance", "targetType": "minimum", "targetValue": 75, "unit": "%"},
+    {"id": "data-completeness", "targetType": "minimum", "targetValue": 95, "unit": "%"},
+    {"id": "critical-data-errors", "targetType": "maximum", "targetValue": 0, "unit": "count"},
+    {"id": "ae-grade-4-5-unreported", "targetType": "maximum", "targetValue": 0, "unit": "count"}
+  ]
+}
